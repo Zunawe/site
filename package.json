@@ -1,0 +1,35 @@
+{
+  "name": "brycewilson.dev",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "webpack serve -c webpack.dev.js",
+    "build": "webpack -c webpack.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-three/fiber": "^7.0.17",
+    "express": "^4.17.1",
+    "lodash.throttle": "^4.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.0",
+    "html-webpack-plugin": "^5.5.0",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  }
+}
